@@ -13,26 +13,19 @@ Este projeto busca simular um cartório utilizando tecnologia blockchain.
 
 ### Fluxo de simulação
 
-3 players:
-- Para cada contrato:
-    - Duas pessoas ou empresas
-    - Um cártorio que irá reconhecer a validade (ou não) das duas assinaturas.
+Provar 3 conceitos de notarization:
+
+- Proof of existence
+- Proof of Ownership
+- Document Ownership Transfer  
 
 ### Requisitos funcionais
-Requisitos para pessoas físicas/jurídicas:
-- Abrir firma
-- Assinar documento
-
-Requisitos para o cartório:
-- Abertura de firma
-- Reconhecimento de firma
-- Troca de donos de contrato
+- Efetuar funções que provem cada um dos três conceitos
 
 ### Cenários de teste
-3 cenários de validação:
-- Reconhecimento de firma
-- Autenticação de documento
-- Troca de bens 
+Dois documentos serão salvos, cada um com um dono. Testar se o Ownership
+remete a chave de cada um dos usuários. Por fim, transferir um documento
+de um dono para o outro.
 
 
 ### Ferramentas utilizadas
